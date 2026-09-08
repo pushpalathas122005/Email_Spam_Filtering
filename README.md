@@ -36,3 +36,28 @@ Email_Spam_Filtering/
 ├── dataset.csv
 ├── requirements.txt
 └── README.md
+## 📈 Evaluation
+
+The model was evaluated using an 80/20 train-test split.
+
+### Performance
+
+| Metric | Result |
+|---|---:|
+| Total Messages | 5,572 |
+| Training Data | 80% |
+| Testing Data | 20% |
+| Model Accuracy | **97.04%** |
+
+### Classification Report
+
+| Class | Precision | Recall | F1-Score |
+|---|---:|---:|---:|
+| Ham | 0.97 | 1.00 | 0.98 |
+| Spam | 1.00 | 0.78 | 0.88 |
+
+### Confusion Matrix
+
+```text
+[[966   0]
+ [ 33 116]]
