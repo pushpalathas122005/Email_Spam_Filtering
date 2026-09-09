@@ -64,3 +64,13 @@ The model was evaluated using an 80/20 train-test split.
  ## Project Results
  ###Spam Filtering Results
  ![Spam Filtering Results](Screenshots/spam_filtering_results.png)
+ ## 📚 Dataset Source
+
+This project uses the **SMS Spam Collection** dataset provided by the UCI Machine Learning Repository.
+
+- Dataset: SMS Spam Collection
+- Source: UCI Machine Learning Repository
+- Dataset Link: https://archive.ics.uci.edu/dataset/228/sms%2Bspam%2Bcollection
+- License: CC BY 4.0
+
+The dataset contains labeled messages classified as **ham (legitimate)** or **spam**.
