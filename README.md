@@ -61,3 +61,6 @@ The model was evaluated using an 80/20 train-test split.
 ```text
 [[966   0]
  [ 33 116]]
+ ## Project Results
+ ###Spam Filtering Results
+ ![Spam Filtering Results](Screenshots/spam_filtering_results.png)
